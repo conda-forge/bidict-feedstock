@@ -11,6 +11,18 @@ Summary: Efficient, Pythonic bidirectional map implementation and related functi
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bidict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bidict-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/bidict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bidict-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bidict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bidict-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bidict/badges/version.svg)](https://anaconda.org/conda-forge/bidict)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bidict/badges/downloads.svg)](https://anaconda.org/conda-forge/bidict)
+
 Installing bidict
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `bidict` available on your platfor
 ```
 conda search bidict --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bidict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bidict-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bidict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bidict-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bidict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bidict-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bidict/badges/version.svg)](https://anaconda.org/conda-forge/bidict)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bidict/badges/downloads.svg)](https://anaconda.org/conda-forge/bidict)
 
 
 Updating bidict-feedstock
