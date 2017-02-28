@@ -3,7 +3,7 @@ About bidict
 
 Home: https://bidict.readthedocs.io
 
-Package license: ISC License (ISCL)
+Package license: ISCL
 
 Feedstock license: BSD 3-Clause
 
