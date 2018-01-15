@@ -1,8 +1,8 @@
 {%set name = "bidict" %}
-{%set version = "0.13.1" %}
+{%set version = "0.14.2" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "8e5f8db24d6983920f2b3e19cad2fc52f4c0e83977bad2a67eedb2683ed2abbf" %}
+{%set hash_val = "e3c972d1a5367b1c903d4825c0645f0e6de6b57d64b78cf1c86d0187905af4ab" %}
 {%set build_num = "0" %}
 
 package:
@@ -15,6 +15,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
+  noarch: python
   number: {{ build_num }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
@@ -22,6 +23,8 @@ requirements:
   build:
     - python
     - setuptools
+    - setuptools_scm
+    - pytest-runner
 
   run:
     - python
@@ -32,7 +35,7 @@ test:
 
 about:
   home: https://bidict.readthedocs.io
-  license: ISCL
+  license: MPL-2.0
   license_file: LICENSE
   summary: 'Efficient, Pythonic bidirectional map implementation and related functionality'
   dev_url: https://github.com/jab/bidict
