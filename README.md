@@ -14,12 +14,15 @@ Summary: Efficient, Pythonic bidirectional map implementation and related functi
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/bidict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bidict-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bidict-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bidict-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bidict/badges/version.svg)](https://anaconda.org/conda-forge/bidict)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bidict/badges/downloads.svg)](https://anaconda.org/conda-forge/bidict)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bidict-green.svg)](https://anaconda.org/conda-forge/bidict) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bidict.svg)](https://anaconda.org/conda-forge/bidict) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bidict.svg)](https://anaconda.org/conda-forge/bidict) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bidict.svg)](https://anaconda.org/conda-forge/bidict) |
 
 Installing bidict
 =================
