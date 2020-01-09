@@ -20,13 +20,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
     - setuptools
     - setuptools_scm
 
   run:
-    - python
+    - python >=3.5
     - setuptools
 
 test:
