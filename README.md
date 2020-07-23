@@ -5,7 +5,7 @@ Home: https://bidict.readthedocs.io
 
 Package license: MPL-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Efficient, Pythonic bidirectional map implementation and related functionality
 
