@@ -1,8 +1,7 @@
 {% set name = "bidict" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.0" %}
 {% set compress_type = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash_val = "ef7461a18fb4a6f3ccaa73f43ffe2e98661fba4b43b647ec7886b3298c8e9187" %}
+{% set hash_val = "c1b1ce1c0f1e3457489672bc3a4db375a06f61ae7797a9eedf71ea788cea3870" %}
 
 package:
   name: {{ name|lower }}
@@ -11,12 +10,12 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  sha256: {{ hash_val }}
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +36,7 @@ about:
   home: https://bidict.readthedocs.io
   license: MPL-2.0
   license_file: LICENSE
-  summary: 'Efficient, Pythonic bidirectional map implementation and related functionality'
+  summary: Efficient, Pythonic bidirectional map implementation and related functionality
   dev_url: https://github.com/jab/bidict
   doc_url: https://bidict.readthedocs.io
 
