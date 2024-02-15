@@ -19,18 +19,21 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
     - setuptools
-    - setuptools_scm
 
   run:
-    - python >=3.6
+    - python >=3.8
     - setuptools
 
 test:
   imports:
     - bidict
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://bidict.readthedocs.io
