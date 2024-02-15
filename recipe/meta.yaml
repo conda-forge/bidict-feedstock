@@ -1,16 +1,13 @@
 {% set name = "bidict" %}
 {% set version = "0.23.0" %}
-{% set compress_type = "tar.gz" %}
-{% set hash_val = "3959ca59d4d6997702d642bf1e5fd93cba299863723fc289545198f70c468578" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ hash_val }}
+  sha256: 3959ca59d4d6997702d642bf1e5fd93cba299863723fc289545198f70c468578
 
 build:
   noarch: python
@@ -21,11 +18,10 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - setuptools
+    - setuptools >=40.9.0
 
   run:
     - python >=3.8
-    - setuptools
 
 test:
   imports:
