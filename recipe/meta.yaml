@@ -1,17 +1,17 @@
 {% set name = "bidict" %}
-{% set version = "0.23.1" %}
+{% set version = "0.24.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 03069d763bc387bbd20e7d49914e75fc4132a41937fa3405417e1a5a2d006d71
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4dca6c17f0b01700e9f24359daa5ebabf7be022d99f4cb2a257b6af2a5076c88
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
