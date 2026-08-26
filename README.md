@@ -3,7 +3,7 @@ About bidict-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bidict-feedstock/blob/main/LICENSE.txt)
 
-Home: https://bidict.readthedocs.io
+Home: https://bidict.readthedocs.io/
 
 Package license: MPL-2.0
 
@@ -11,7 +11,7 @@ Summary: Efficient, Pythonic bidirectional map implementation and related functi
 
 Development: https://github.com/jab/bidict
 
-Documentation: https://bidict.readthedocs.io
+Documentation: https://bidict.readthedocs.io/
 
 Current build status
 ====================
