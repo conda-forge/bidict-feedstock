@@ -21,7 +21,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - uv_build >=0.8.13,<0.12
+    - uv-build >=0.8.13,<0.12
   run:
     - python >=${{ python_min }}
     - typing_extensions >=4.0
